@@ -1,0 +1,82 @@
+{
+    "data": [
+        {
+            "gender": "male",
+            "age": 30,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_1_male_30.mp3"
+        },
+        {
+            "gender": "male",
+            "age": 20,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_1_male_20.wav"
+        },
+        {
+            "gender": "male",
+            "age": 15,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_2_male_15.wav"
+        },
+        {
+            "gender": "male",
+            "age": 20,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_2_male_20.wav"
+        },
+        {
+            "gender": "male",
+            "age": 30,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_2_male_30.wav"
+        },
+        {
+            "gender": "female",
+            "age": 20,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_1_female_20.wav"
+        },
+        {
+            "gender": "female",
+            "age": 30,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_1_female_30.mp3"
+        },
+        {
+            "gender": "female",
+            "age": 20,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_2_female_20.wav"
+        },
+        {
+            "gender": "female",
+            "age": 30,
+            "label": "sholawat",
+            "path": "dataset/audio/sholawat/sholawat_2_female_30.wav"
+        },
+        {
+            "gender": "male",
+            "age": 30,
+            "label": "takbir",
+            "path": "dataset/audio/takbir/takbir_male_30.mp3"
+        },
+        {
+            "gender": "female",
+            "age": 30,
+            "label": "takbir",
+            "path": "dataset/audio/takbir/takbir_female_30.mp3"
+        },
+        {
+            "gender": "male",
+            "age": 20,
+            "label": "takbir",
+            "path": "dataset/audio/takbir/takbir_male_20.wav"
+        },
+        {
+            "gender": "female",
+            "age": 20,
+            "label": "takbir",
+            "path": "dataset/audio/takbir/takbir_female_20.wav"
+        }
+    ]
+}
