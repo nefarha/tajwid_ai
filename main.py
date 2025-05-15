@@ -96,7 +96,7 @@ model.compile(
         'label_output': 'accuracy',
         'gender_output': 'accuracy',
         'age_output': 'mae'
-    }
+    },
 )
 
 model.summary()
@@ -119,6 +119,7 @@ model.fit(
     ),
     epochs=500,
     batch_size=32
+
 )
 
 def extract_features_for_test(file_path, max_pad_len=100):  # pad_len bisa disesuaikan
@@ -146,7 +147,6 @@ result = model.predict(test_features)
 label_pred = np.argmax(result[0])
 gender_pred = round(result[1][0,0])
 age_pred = round(result[2][0,0])
-
 
 
 print(f"jenis suaranya: {labels_key[label_pred]}, gendernya: {gender_key[gender_pred]}, usianya: {age_pred}")
